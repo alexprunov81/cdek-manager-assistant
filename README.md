@@ -1,1 +1,1 @@
-# cdek-manager-assistant.github.io
+# cdek-manager-assistant
