@@ -21,7 +21,7 @@ function getPureNum(e) {
     arr = arr.filter((num)=> num !== e.target.value)
 
     copyWindow.innerHTML = arr.join(' ')
-    e.target.value = 'null'
+    e.target.value = ''
 }
 
 dellNumbers.onchange = getPureNum
