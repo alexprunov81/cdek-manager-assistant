@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.f994d028.css",
-    "main.js": "/static/js/main.453221ce.js",
-    "static/js/787.1879702c.chunk.js": "/static/js/787.1879702c.chunk.js",
-    "index.html": "/index.html",
-    "main.f994d028.css.map": "/static/css/main.f994d028.css.map",
-    "main.453221ce.js.map": "/static/js/main.453221ce.js.map",
-    "787.1879702c.chunk.js.map": "/static/js/787.1879702c.chunk.js.map"
+    "main.css": "/cdek-manager-assistant/static/css/main.f994d028.css",
+    "main.js": "/cdek-manager-assistant/static/js/main.74deeb17.js",
+    "static/js/787.1879702c.chunk.js": "/cdek-manager-assistant/static/js/787.1879702c.chunk.js",
+    "index.html": "/cdek-manager-assistant/index.html",
+    "main.f994d028.css.map": "/cdek-manager-assistant/static/css/main.f994d028.css.map",
+    "main.74deeb17.js.map": "/cdek-manager-assistant/static/js/main.74deeb17.js.map",
+    "787.1879702c.chunk.js.map": "/cdek-manager-assistant/static/js/787.1879702c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f994d028.css",
-    "static/js/main.453221ce.js"
+    "static/js/main.74deeb17.js"
   ]
 }
