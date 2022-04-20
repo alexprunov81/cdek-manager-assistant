@@ -1,38 +1,88 @@
-.App {
-  text-align: center;
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+label {
+  font-size: 28px!important;
+  line-height: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#icon {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+p {
+  line-height: 2rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.sidenav-trigger {
+  color: #26a69a;
+}
+.wrap {
+  position: relative;
+}
+.copy-window {
+  width: 100%;
+  min-height: 100px;
+  padding: 18px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+}
+.copy-window2 {
+  width: 100%;
+  min-height: 100px;
+  padding: 18px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.container .section {
+  min-height: 100vh;
+
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+@media only screen and (max-width: 992px) {
+  .container .section {
+    position: absolute;
+    top: 40%;
+  }
+
+  #index-banner .section {
+    top: 10%;
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen and (max-width: 600px) {
+  #index-banner .section {
+    top: 0;
   }
-  to {
-    transform: rotate(360deg);
-  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
 }
