@@ -3,42 +3,6 @@ import Input from "../UI/input/Input";
 import PageTitle from "./PageTitle";
 import SortBlock from "./SortBlock";
 
-// function getPureNum(e) {
-//     const nonExist = []
-//     arr = arr.filter((num) => num !== e.target.value)
-//     copyWindow.innerHTML = arr.join(' ')
-//
-//     arr.forEach(num => {
-//         if (e.target.value !== num) {
-//             copyWindow2.innerHTML = e.target.value.trim()
-//         }
-//
-//
-//     })
-//     e.target.value = ''
-// }
-//
-// function getNonExistentNum(e) {
-//
-//     arr.forEach(num => {
-//
-//     })
-// }
-//
-//
-
-//
-// dellNumbers.addEventListener('change', getPureNum)
-//
-//
-// function copytext() {
-//     navigator.clipboard.writeText(copyWindow.textContent)
-//
-//     copyWindow.textContent ? copyWindow.innerHTML = 'Скопированно!!!' : ''
-// }
-
-// icon.addEventListener('click', copytext)
-
 
 const Filter = props => {
 
