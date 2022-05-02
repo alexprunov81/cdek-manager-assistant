@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/cdek-manager-assistant/static/css/main.f994d028.css",
-    "main.js": "/cdek-manager-assistant/static/js/main.28b5ccf6.js",
+    "main.js": "/cdek-manager-assistant/static/js/main.f60e7d25.js",
     "static/js/787.1879702c.chunk.js": "/cdek-manager-assistant/static/js/787.1879702c.chunk.js",
     "index.html": "/cdek-manager-assistant/index.html",
     "main.f994d028.css.map": "/cdek-manager-assistant/static/css/main.f994d028.css.map",
-    "main.28b5ccf6.js.map": "/cdek-manager-assistant/static/js/main.28b5ccf6.js.map",
+    "main.f60e7d25.js.map": "/cdek-manager-assistant/static/js/main.f60e7d25.js.map",
     "787.1879702c.chunk.js.map": "/cdek-manager-assistant/static/js/787.1879702c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f994d028.css",
-    "static/js/main.28b5ccf6.js"
+    "static/js/main.f60e7d25.js"
   ]
 }
